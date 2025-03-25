@@ -1,0 +1,94 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{xparse}
+\usepackage[version=4]{mhchem}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{xspace}
+\usepackage{array}
+\usepackage{xcolor,colortbl}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{helvet}
+
+\renewcommand{\thetable}{\Roman{table}}
+\setcounter{secnumdepth}{4}
+
+\NewDocumentCommand{\rruber}{}{\textit{E. coli}\xspace}
+\NewDocumentCommand{\ecoli}{}{\textit{E. coli}\xspace}
+\NewDocumentCommand{\ecolixloneblue}{}{\textit{E. coli} XL1 blue\xspace}
+\NewDocumentCommand{\ecoliblgold}{}{\textit{E. coli} BL21 gold\xspace}
+
+
+\title{Protokoll MOL601 Molekularbiologische Übungen 2 \\
+Sommersemester 2025}
+\author{Gruppe 2}
+\date{24.03.2024}
+    
+\begin{document}
+
+\maketitle
+
+\section{Klonierung eines Esterase-Gens aus Rhodococcus ruber in einen Expressionsvektor in \ecoli}
+\subsection{Durchführung}
+\subsection{Ergebnisse \& Disskussion}
+
+
+\section{Herstellen neuer \ecoli Stämme mit Antibiotikaresistenz und Fluoreszenz mittels P1 Transduktion}
+\subsection{Durchführung}
+\subsection{Ergebnisse \& Disskussion}
+
+
+\section{TEMPLATES}
+%% TABLE TEMPLATE
+\begin{table}[h!]
+    \centering
+    \caption{\textbf{
+    % TITLE HERE
+    }}
+    \begin{tabular}{lcc}
+    \toprule
+    \textbf{Coffein} & \textbf{Aspirin} & \textbf{Paracetamol} \\
+    \midrule
+    \textbf{Laufmittelfront (mm)} & 55  & 55  \\
+    \textbf{Distanz (mm)}         & 7   & 21  \\
+    \midrule
+    \textbf{Rf}                   & 0.1 & 0.4 \\
+    \bottomrule
+    \end{tabular}
+    \caption*{\small
+        % SUB CAPTION HERE
+    }
+    \label{tab:template}
+\end{table}
+
+%% IMAGE TEMPLATE
+\begin{figure}[h!]
+    \centering
+    \includegraphics{example-image}
+    \caption{\small
+     % IMAGE CAPTION
+    }
+    \label{fig:template}
+\end{figure}
+
+
+% bibliography
+\begin{thebibliography}{9}
+
+    \bibitem{skript}
+    TU Graz, MOL601 Molekularbiologische Übungen 2 Skriptum, Sommersemester 2025
+
+\end{thebibliography}
+
+
+
+
+\end{document}
